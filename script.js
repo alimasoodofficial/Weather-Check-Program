@@ -13,7 +13,7 @@ weatherForm.addEventListener('submit', async event => {
             DisplayWeatherInfo(weatherData)
         }
         catch (error) {
-            console.error("222", error)
+            console.error(error)
             displayError(error.message)
         }
 
